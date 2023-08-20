@@ -19,3 +19,13 @@ function showSlides() {
   dots[slideIndex - 1].className += " active";
   setTimeout(showSlides, 5000);
 }
+
+const navEL = document.querySelector(".x-navbar");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY >= 60) {
+    navEL.classList.add("x-white-bg");
+  } else if (window.scrollY < 60) {
+    navEL.classList.remove("x-white-bg");
+  }
+});
