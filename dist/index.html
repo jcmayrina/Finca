@@ -13,17 +13,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section
-      class="x-navbar grid grid-rows-1 grid-flow-col sticky top-0 z-10 bg-white bg-opacity-60"
-    >
-      <div class="col-span-11">
+    <section class="x-navbar grid grid-rows-1 grid-flow-col sticky top-0 z-10">
+      <div class="col-span-11 lg:col-span-1">
         <img
-          class="object-contain w-28 m-1.5"
+          class="object-contain w-28 m-1.5 ms-2 lg:m-5 lg:ms-60 lg:w-32"
           src="./images/FES LOGO REMAKE.png"
           alt="FES Logo"
         />
       </div>
-      <div class="self-center">
+      <div class="self-center lg:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -39,108 +37,64 @@
           />
         </svg>
       </div>
+      <div class="self-center hidden lg:inline-block">
+        <ul class="link-holder">
+          <li class="inline mx-5">
+            <a href="#" class="text-xl inline-block">About</a>
+          </li>
+          <li class="inline mx-5">
+            <a href="#" class="text-xl inline-block">Projects</a>
+          </li>
+          <li class="inline mx-5">
+            <a href="#" class="text-xl inline-block">Contact</a>
+          </li>
+          <li class="inline mx-16 cta-link">
+            <a href="#" class="px-3 py-2 rounded-xl">Get in touch now!</a>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="FES-hero z-0 top-0 absolute">
-      <div class="slideshow-container">
-        <div class="mySlides container mx-auto">
+      <div class="slideshow-container w-screen">
+        <div class="mySlides mx-auto w-screen">
           <div
-            class="bg-cover bg-right-top h-auto text-white py-36 px-10 object-fill"
+            class="bg-cover bg-right-bottom h-auto text-white py-64 px-10 w-screen lg:h-screen object-fill opacity-70"
             style="background-image: url('./images/9.png')"
-          >
-            <p class="text-5xl font-extralight drop-shadow-md">
-              Safe Structures
-            </p>
-            <p class="text-5xl mb-10 drop-shadow-md">Save Lives</p>
-            <a
-              href="#"
-              class="hero-btn py-4 px-8 text-white uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800"
-              >Work with us.</a
-            >
-          </div>
+          ></div>
         </div>
-        <div class="mySlides container mx-auto">
+        <div class="mySlides mx-auto">
           <div
-            class="bg-cover bg-center h-auto text-white py-36 px-10 object-fill"
+            class="bg-cover bg-center h-auto text-white py-64 px-10 w-screen lg:h-screen object-fill opacity-70"
             style="background-image: url('./images/3.jpg')"
-          >
-            <p class="text-5xl font-extralight drop-shadow-md">
-              Safe Structures
-            </p>
-            <p class="text-5xl mb-10 drop-shadow-md">Save Lives</p>
-            <a
-              href="#"
-              class="hero-btn py-4 px-8 text-white uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800"
-              >Work with us.</a
-            >
-          </div>
+          ></div>
         </div>
 
-        <div class="mySlides container mx-auto">
+        <div class="mySlides mx-auto">
           <div
-            class="bg-cover bg-center h-auto text-white py-36 px-10 object-fill"
+            class="bg-cover bg-center h-auto text-white py-64 px-10 w-screen lg:h-screen object-fill opacity-50"
             style="background-image: url('./images/4.jpg')"
-          >
-            <p class="text-5xl font-extralight drop-shadow-md">
-              Safe Structures
-            </p>
-            <p class="text-5xl mb-10 drop-shadow-md">Save Lives</p>
-            <a
-              href="#"
-              class="hero-btn py-4 px-8 text-white uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800"
-              >Work with us.</a
-            >
-          </div>
+          ></div>
         </div>
 
-        <div class="mySlides container mx-auto">
+        <div class="mySlides mx-auto">
           <div
-            class="bg-cover bg-center h-auto text-white py-36 px-10 object-fill"
+            class="bg-cover bg-center h-auto text-white py-64 px-10 w-screen lg:h-screen object-fill opacity-70"
             style="background-image: url('./images/1.png')"
-          >
-            <p class="text-5xl font-extralight drop-shadow-md">
-              Safe Structures
-            </p>
-            <p class="text-5xl mb-10 drop-shadow-md">Save Lives</p>
-            <a
-              href="#"
-              class="hero-btn py-4 px-8 text-white uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800"
-              >Work with us.</a
-            >
-          </div>
+          ></div>
         </div>
 
-        <div class="mySlides container mx-auto">
+        <div class="mySlides mx-auto">
           <div
-            class="bg-cover bg-center h-auto text-white py-36 px-10 object-fill"
+            class="bg-cover bg-center h-auto text-white py-64 px-10 w-screen lg:h-screen object-fill opacity-50"
             style="background-image: url('./images/5.jpg')"
-          >
-            <p class="text-5xl font-extralight drop-shadow-md">
-              Safe Structures
-            </p>
-            <p class="text-5xl mb-10 drop-shadow-md">Save Lives</p>
-            <a
-              href="#"
-              class="hero-btn py-4 px-8 text-white uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800"
-              >Work with us.</a
-            >
-          </div>
+          ></div>
         </div>
 
-        <div class="mySlides container mx-auto">
+        <div class="mySlides mx-auto">
           <div
-            class="bg-cover bg-center h-auto text-white py-36 px-10 object-fill"
+            class="bg-cover bg-center h-auto text-white py-64 px-10 w-screen lg:h-screen object-fill opacity-50"
             style="background-image: url('./images/8.jpg')"
-          >
-            <p class="text-5xl font-extralight drop-shadow-md">
-              Safe Structures
-            </p>
-            <p class="text-5xl mb-10 drop-shadow-md">Save Lives</p>
-            <a
-              href="#"
-              class="hero-btn py-4 px-8 text-white uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800"
-              >Work with us.</a
-            >
-          </div>
+          ></div>
         </div>
       </div>
       <div class="flex justify-between w-60 mx-auto -my-2.5">
@@ -151,8 +105,23 @@
         <span class="dot w-1/3 h-1"></span>
         <span class="dot w-1/3 h-1"></span>
       </div>
+      <div class="slideText z-10 top-40 left-5 lg:top-72 lg:left-64 absolute">
+        <p
+          class="text-5xl lg:text-7xl font-extralight drop-shadow-md text-white"
+        >
+          Safe Structures
+        </p>
+        <p class="text-5xl lg:text-7xl mb-10 drop-shadow-md text-white">
+          Save Lives
+        </p>
+        <a
+          href="#"
+          class="hero-btn lg:text-xl py-4 px-8 text-white text-xs rounded hover:bg-gray-200 hover:text-gray-800"
+          >Work with us.</a
+        >
+      </div>
     </section>
-    <section class="relative top-96 mt-10">
+    <section class="relative top-96 mt-10 lg:mt-80">
       1111111111111Lorem ipsum dolor, sit amet consectetur adipisicing elit.
       Laudantium dolorum eius nihil ipsa amet! Quidem, quod dolores, id labore
       praesentium quas non sequi ipsam blanditiis culpa maiores impedit,

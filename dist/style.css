@@ -8,7 +8,9 @@ font-family: 'Quicksand', sans-serif; */
 .mySlides {
   display: none;
 }
-/* Fading animation */
+.slideshow-container {
+  background: #000000;
+}
 
 .dot {
   background-color: #ffffff;
@@ -18,28 +20,31 @@ font-family: 'Quicksand', sans-serif; */
 }
 
 .active {
-  background-color: #286fb4;
+  background-color: #2680b5;
   mix-blend-mode: normal;
 }
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   background-color: transparent;
   border: 10px solid;
   border-image-slice: 1;
   border-width: 1px;
-  border-image-source: linear-gradient(to left, #286fb4, #df4c73);
+  border-image-source: linear-gradient(to left, #2680b5, #c6477e);
   color: #ffffff;
-  font-weight: 900;
+  font-weight: 300;
   text-shadow: 0px 0px 3px #000000;
+  transition: 0.6s ease;
 }
 .hero-btn:hover {
-  background-color: #df4c7377;
+  background-color: #c6477e;
   color: #ffffff;
-  border: solid #df4c73 1px;
+  border: solid #c6477e 1px;
+  transition: 0.6s ease;
   border-radius: 0;
 }
-.mySlides .text-5xl {
+.slideText .text-5xl {
   font-family: "Roboto", sans-serif;
-  text-shadow: 0px 0px 10px #000000;
+  text-shadow: 0px 0px 1px #000000;
 }
 .x-navbar {
   transition: 0.3s ease;
@@ -49,4 +54,43 @@ font-family: 'Quicksand', sans-serif; */
   opacity: 1;
   transition: 0.3s ease;
   box-shadow: 0px 0px 10px #000000;
+}
+.link-holder li a {
+  color: #ffffff;
+  font-weight: 700;
+  transition: 0.4s ease;
+  text-shadow: 0px 0px 1px #000000;
+}
+.link-holder li a:hover {
+  transform: translate(0, -5px);
+  color: #c6477e;
+  transition: 0.4s ease;
+  text-shadow: none;
+}
+
+.link-holder .cta-link a {
+  color: #ffffff;
+  background: #c6477e;
+  border: 1px solid #c6477e;
+  font-weight: 400;
+  transition: 0.6s ease;
+}
+.link-holder .cta-link a:hover {
+  color: #c6477e;
+  background: transparent;
+  border: 1px solid #c6477e;
+  transition: 0.6s ease;
+}
+.x-white-bg .link-holder li a {
+  color: #000000;
+  text-shadow: none;
+}
+.x-white-bg .link-holder .cta-link a {
+  color: #ffffff;
+  transition: 0.4s ease;
+}
+
+.x-white-bg .link-holder li a:hover {
+  color: #c6477e;
+  transition: 0.4s ease;
 }
