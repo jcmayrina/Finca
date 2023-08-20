@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
-/* font-family: 'Oswald', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* 
+font-family: 'Roboto', sans-serif;
 font-family: 'Quicksand', sans-serif; */
 * {
   font-family: "Quicksand", sans-serif;
@@ -36,7 +37,7 @@ font-family: 'Quicksand', sans-serif; */
   border: solid #df4c73 1px;
   border-radius: 0;
 }
-.mySlides p {
-  font-family: "Oswald", sans-serif;
-  text-shadow: 0px 0px 20px #000000;
+.mySlides .text-5xl {
+  font-family: "Roboto", sans-serif;
+  text-shadow: 0px 0px 10px #000000;
 }
