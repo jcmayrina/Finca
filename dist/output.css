@@ -696,6 +696,10 @@ video {
   z-index: 10;
 }
 
+.z-20 {
+  z-index: 20;
+}
+
 .col-span-11 {
   grid-column: span 11 / span 11;
 }
@@ -1536,6 +1540,26 @@ video {
     left: 16rem;
   }
 
+  .lg\:top-48 {
+    top: 12rem;
+  }
+
+  .lg\:top-44 {
+    top: 11rem;
+  }
+
+  .lg\:top-40 {
+    top: 10rem;
+  }
+
+  .lg\:top-36 {
+    top: 9rem;
+  }
+
+  .lg\:top-20 {
+    top: 5rem;
+  }
+
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -1690,5 +1714,23 @@ video {
   .lg\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:top-48 {
+    top: 12rem;
+  }
+
+  .xl\:top-52 {
+    top: 13rem;
+  }
+
+  .xl\:top-56 {
+    top: 14rem;
+  }
+
+  .xl\:top-2 {
+    top: 0.5rem;
   }
 }

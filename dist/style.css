@@ -14,14 +14,12 @@ font-family: 'Quicksand', sans-serif; */
 
 .dot {
   background-color: #ffffff;
-  mix-blend-mode: overlay;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: 0.6s ease;
 }
 
 .active {
   background-color: #2680b5;
-  mix-blend-mode: normal;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -38,7 +36,7 @@ font-family: 'Quicksand', sans-serif; */
 .hero-btn:hover {
   background-color: #c6477e;
   color: #ffffff;
-  border: solid #c6477e 1px;
+  border: solid #ffffff 1px;
   transition: 0.6s ease;
   border-radius: 0;
 }
@@ -93,4 +91,16 @@ font-family: 'Quicksand', sans-serif; */
 .x-white-bg .link-holder li a:hover {
   color: #c6477e;
   transition: 0.4s ease;
+}
+
+@media screen and (min-width: 1280px) {
+  .mySlides .bg-cover {
+    height: 70dvh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mySlides .bg-cover {
+    height: 80dvh;
+  }
 }
