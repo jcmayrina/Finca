@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Quicksand', sans-serif; */
+* {
+  font-family: "Quicksand", sans-serif;
+}
+.mySlides {
+  display: none;
+}
+/* Fading animation */
+
+.dot {
+  background-color: #ffffff;
+  mix-blend-mode: overlay;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #286fb4;
+  mix-blend-mode: normal;
+}
+.hero-btn {
+  background-color: transparent;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(to left, #286fb4, #df4c73);
+  color: #ffffff;
+  font-weight: 900;
+  text-shadow: 0px 0px 3px #000000;
+}
+.hero-btn:hover {
+  background-color: #df4c7377;
+  color: #ffffff;
+  border: solid #df4c73 1px;
+  border-radius: 0;
+}
+.mySlides p {
+  font-family: "Oswald", sans-serif;
+  text-shadow: 0px 0px 20px #000000;
+}
