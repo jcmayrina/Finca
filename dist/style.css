@@ -92,15 +92,23 @@ font-family: 'Quicksand', sans-serif; */
   color: #c6477e;
   transition: 0.4s ease;
 }
-
+.next-hero {
+  margin-top: 440px;
+}
 @media screen and (min-width: 1280px) {
   .mySlides .bg-cover {
     height: 70dvh;
+  }
+  .next-hero {
+    margin-top: 490px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .mySlides .bg-cover {
     height: 80dvh;
+  }
+  .next-hero {
+    margin-top: 500px;
   }
 }
