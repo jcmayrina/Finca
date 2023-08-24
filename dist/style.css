@@ -96,20 +96,26 @@ font-family: 'Quicksand', sans-serif; */
 .next-hero {
   margin-top: 440px;
 }
-@media screen and (min-width: 1280px) {
-  .mySlides .bg-cover {
-    height: 70dvh;
-  }
-  .next-hero {
-    margin-top: 490px;
-  }
-}
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (orientation: portrait) {
   .mySlides .bg-cover {
     height: 80dvh;
   }
   .next-hero {
-    margin-top: 500px;
+    margin-top: 760px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (orientation: portrait) {
+  .mySlides .bg-cover {
+    height: 70dvh;
+  }
+  .next-hero {
+    margin-top: 650px;
+  }
+}
+@media screen and (min-width: 1536px) and (orientation: portrait) {
+  .next-hero {
+    margin-top: 660px;
   }
 }
