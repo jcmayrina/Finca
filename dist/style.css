@@ -1,9 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* 
-font-family: 'Roboto', sans-serif;
-font-family: 'Quicksand', sans-serif; */
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 * {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .mySlides {
   display: none;
@@ -21,8 +27,9 @@ font-family: 'Quicksand', sans-serif; */
 .active {
   background-color: #2680b5;
 }
+
 .hero-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: transparent;
   border: 10px solid;
   border-image-slice: 1;
@@ -41,11 +48,12 @@ font-family: 'Quicksand', sans-serif; */
   border-radius: 0;
 }
 .slideText .text-5xl {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   text-shadow: 0px 0px 1px #000000;
 }
 .x-navbar {
   transition: 0.3s ease;
+  width: 100dvw;
 }
 .x-white-bg {
   background-color: #ffffff !important;
@@ -55,7 +63,7 @@ font-family: 'Quicksand', sans-serif; */
 }
 .link-holder li a {
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 200;
   transition: 0.4s ease;
   text-shadow: 0px 0px 1px #000000;
 }
@@ -94,28 +102,45 @@ font-family: 'Quicksand', sans-serif; */
 }
 
 .next-hero {
-  margin-top: 440px;
+  padding-top: 400px;
+  width: 100dvw;
 }
-
-@media screen and (min-width: 1024px) and (orientation: portrait) {
+/* PORTRAIT */
+@media screen and (min-width: 768px) and (orientation: portrait) {
+}
+@media screen and (min-width: 992px) and (orientation: portrait) {
   .mySlides .bg-cover {
     height: 80dvh;
   }
-  .next-hero {
-    margin-top: 760px;
-  }
 }
 
-@media screen and (min-width: 1280px) and (orientation: portrait) {
+@media screen and (min-width: 1200px) and (orientation: portrait) {
   .mySlides .bg-cover {
     height: 70dvh;
   }
+}
+@media screen and (min-width: 1400px) and (orientation: portrait) {
+}
+/* LANDSCAPE */
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+}
+@media screen and (min-width: 992px) and (orientation: landscape) {
   .next-hero {
-    margin-top: 650px;
+    padding-top: 100px;
   }
 }
-@media screen and (min-width: 1536px) and (orientation: portrait) {
+
+@media screen and (min-width: 1200px) and (orientation: landscape) {
+  .mySlides .bg-cover {
+    height: 75dvh;
+  }
   .next-hero {
-    margin-top: 660px;
+    padding-top: 200px;
+  }
+}
+@media screen and (min-width: 1400px) and (orientation: landscape) {
+  .next-hero {
+    padding-top: 300px;
   }
 }
