@@ -74,6 +74,10 @@ body {
   text-shadow: none;
 }
 
+.x-white-bg .link-holder li a {
+  font-weight: 400;
+  transition: 0.4s ease;
+}
 .link-holder .cta-link a {
   color: #ffffff;
   background: #c6477e;
